@@ -8,6 +8,7 @@ if "page" not in st.session_state:
 
 companies = ["Lululemon", "Travelzoo", "Genius Sports", "Root Inc", "Karman Holdings"]
 
+
 default_texts = {
    "Lululemon": """
 **09/09/2025**
@@ -211,9 +212,9 @@ Edited by: Patrick Maynard
 
     """,
     "Privacy Policy": """
-**Last updated: 12 September 2025**
+**Last updated: 8 September 2025**
 
-At Mini-Pitch, consider your privacy to be something of the utmost importance. The details listed down below note how we: collect, use, store, and protect information when you use our website. As transparency is core to our key values, the details of what we do not collect and the measures we take to ensure your data remains safe is also noted below.
+We at Equity Report.co, consider your privacy to be something of the utmost importance. The details listed down below note how we: collect, use, store, and protect information when you use our website. As transparency is core to our key values, the details of what we do not collect and the measures we take to ensure your data remains safe is also noted below.
 By using our website, you agree to the terms of this Privacy Policy.
 
 **1. Policy Purpose**
@@ -301,7 +302,7 @@ valuation_images = {
     "Lululemon": ["Images/Google/valuation3/LULU.png", "Images/Google/valuation3/LULU1.png"],
     "Travelzoo": ["Images/Apple/valuation/TZOO.png"],
     "Genius Sports": ["Images/Microsoft/valuation1/GENIa.png", "Images/Microsoft/valuation1/GENIb.png"],
-    "Root Inc": ["Images/Amazon/valuation2/RootInc.png"],
+    "Root Inc": ["Images/Amazon/valuation2/RootInc.png"],   
     "Karman Holdings": ["Images/Tesla/valuation4/KRMN.png"]
 }
 
@@ -309,7 +310,7 @@ end_images = {
     "Lululemon": ["Images/Google/end3/LULUa.png", "Images/Google/end3/LULUb.png", "Images/Google/end3/LULUc.png"],
     "Travelzoo": ["Images/Apple/end/TZOOa.png", "Images/Apple/end/TZOOb.png", "Images/Apple/end/TZOOc.png", "Images/Apple/end/TZOOd.png", "Images/Apple/end/TZOOe.png"],
     "Genius Sports": ["Images/Microsoft/end1/GENIc.png", "Images/Microsoft/end1/GENId.png", "Images/Microsoft/end1/GENIe.png", "Images/Microsoft/end1/GENIf.png"],
-    "Root Inc": ["Images/Amazon/end2/RootInca.png", "Images/Amazon/end2/RootIncb.png", "Images/Amazon/end2/RootIncc.png"],
+    "Root Inc": ["Images/Amazon/end2/RootInca.png", "Images/Amazon/end2/RootIncb.png", "Images/Amazon/end2/RootIncc.png"],   # replace with real paths
     "Karman Holdings": ["Images/Tesla/end4/KRMNa.png", "Images/Tesla/end4/KRMNb.png", "Images/Tesla/end4/KRMNc.png", "Images/Tesla/end4/KRMNd.png"]
 }
 
@@ -318,6 +319,7 @@ def menu():
     current_page = st.session_state.get("page", "Home")
     page_selection = current_page
 
+   
     st.markdown(
         """
         <style>
@@ -333,13 +335,14 @@ def menu():
     def menu_item(label):
         nonlocal page_selection
         active = (current_page == label)
-        if st.button(label, key=f"btn_{label}", use_container_width=True):
+        if st.button(label, key=f"btn_{label}"):
             page_selection = label
 
         st.markdown(
             f"""
             <style>
             div[data-testid="stButton"][key="btn_{label}"] button {{
+                width: 100% !important
                 text-align: left !important;
                 background-color: {'#333333' if active else '#222222'} !important;
                 color: white !important;
@@ -361,10 +364,12 @@ def menu():
 
     menu_item("Home")
 
+
     with st.expander("Stock Pitches", expanded=current_page in companies):
         for pitch in companies:
             menu_item(pitch)
 
+  
     menu_item("About")
     menu_item("Privacy Policy")
 
@@ -397,7 +402,7 @@ def render_page(page):
         st.markdown('<h1 style="font-size:45x;">0ur Team</h1>', unsafe_allow_html=True)
         st.markdown(f"""
         <h1 style="font-size:20px;">
-        Founder/CEO<b><i><span style="color: #40E0D0"> - Chrishan Kanagalingam</span></i></b>
+        Founder/President<b><i><span style="color: #40E0D0"> - Chrishan Kanagalingam</span></i></b>
         </h1>
         """, unsafe_allow_html=True)
 
@@ -412,6 +417,7 @@ def render_page(page):
         Co-Developers<b><i><span style="color: #40E0D0"> - Lakshan Ganapathy, Chrishan Kanagalingam</span></i></b>
         </h1>
         """, unsafe_allow_html=True)
+
         return
 
 
@@ -431,7 +437,7 @@ def render_page(page):
 
         for img in valuation_images[stock_page]:
             if os.path.exists(img):
-                st.image(img, use_container_width=True)
+                st.image(img, width=1000)
                 st.markdown("<br>", unsafe_allow_html=True)
             else:
                 st.warning(f"Valuation image not found: {img}")
@@ -440,7 +446,7 @@ def render_page(page):
     else:
         st.markdown(text, unsafe_allow_html=True)
 
-    if stock_page in end_images:
+    if stock_page in end_images:    
         for img in end_images[stock_page]:
             if os.path.exists(img):
                 st.image(img, width=1000)
@@ -448,7 +454,7 @@ def render_page(page):
             else:
                 st.warning(f"End image not found: {img}")
 
+              
 with st.sidebar:
     current_page = menu()
-
 render_page(current_page)
