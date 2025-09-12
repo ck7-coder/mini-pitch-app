@@ -398,11 +398,11 @@ def render_page(page):
 
     elif page == "About":
         st.title(page)
-        st.markdown('<h1 style="font-size:17px;"> At Mini-Pitch, we aspire to revolutionise student participation in financial interest; our online platform provides a window for students to pitch ideas (reinforced through calculations and relevant research) to others and trade financial insight. This allows avenues to gain increased financial literacy, no matter whether you are a: reader, writer or investor. At Mini-Pitch, we utilise a combination of financial modelling to valuate our pitches, including: Discounted Cash Flow (DCF), Trading Comps Valuation and Capital Asset Pricing (CAPM). This helps us to showcase a hopefully greater reliability with our pitches when offering our recommendations. For any enquiries regarding our pitches (or posting your stock pitches on our page), contact us at chrishan@mini-pitch.co.uk</h1>', unsafe_allow_html=True)
+        st.markdown('<h1 style="font-size:17px;"> At Mini-Pitch, we aspire to encourage student participation regarding financial interest; our online platform provides a window for students to pitch ideas (reinforced through calculations and relevant research) to others and trade financial insight. This allows avenues to gain increased financial literacy, no matter whether you are a: reader, writer or investor. At Mini-Pitch, we utilise a combination of financial modelling to valuate our pitches, including: Discounted Cash Flow (DCF), Trading Comps Valuation and Capital Asset Pricing (CAPM). This helps us to showcase a hopefully greater reliability with our pitches when offering our recommendations. For any enquiries regarding our pitches (or posting your stock pitches on our page), contact us at chrishan@mini-pitch.co.uk</h1>', unsafe_allow_html=True)
         st.markdown('<h1 style="font-size:45x;">0ur Team</h1>', unsafe_allow_html=True)
         st.markdown(f"""
         <h1 style="font-size:20px;">
-        Founder/President<b><i><span style="color: #40E0D0"> - Chrishan Kanagalingam</span></i></b>
+        Founder/CEO<b><i><span style="color: #40E0D0"> - Chrishan Kanagalingam</span></i></b>
         </h1>
         """, unsafe_allow_html=True)
 
