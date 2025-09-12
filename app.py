@@ -408,7 +408,7 @@ def render_page(page):
 
         st.markdown(f"""
         <h1 style="font-size:20px;">
-        Co-Editorial Chiefs<b><i><span style="color: #40E0D0"> - Johan Sebastien, Patrick Maynard</span></i></b>
+        Co-Editorial Chiefs<b><i><span style="color: #40E0D0"> - Johan Sebastian, Patrick Maynard</span></i></b>
         </h1>
         """, unsafe_allow_html=True)
 
