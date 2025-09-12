@@ -214,7 +214,7 @@ Edited by: Patrick Maynard
     "Privacy Policy": """
 **Last updated: 8 September 2025**
 
-We at Equity Report.co, consider your privacy to be something of the utmost importance. The details listed down below note how we: collect, use, store, and protect information when you use our website. As transparency is core to our key values, the details of what we do not collect and the measures we take to ensure your data remains safe is also noted below.
+We at Mini-Pitch, consider your privacy to be something of the utmost importance. The details listed down below note how we: collect, use, store, and protect information when you use our website. As transparency is core to our key values, the details of what we do not collect and the measures we take to ensure your data remains safe is also noted below.
 By using our website, you agree to the terms of this Privacy Policy.
 
 **1. Policy Purpose**
