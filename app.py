@@ -84,9 +84,9 @@ Yahoo Finance, 2025
 
 Travelzoo, 10-K Balance Sheet
 
-**Written by: Johan Sebastien**   
+**Written by: Chrishan Kanagalingam**   
 
-**Edited By: Chrishan Kanagalingam**
+**Edited By: Johan Sebastian**
 
 **Appendix**
 """,
@@ -168,6 +168,8 @@ trading view.com, 2025
 
 investor.wedbush.com, 2025
 
+**Written by: Arman Nahas**
+
 **Edited by: Chrishan Kanagalingam**
 
 **Appendix**
@@ -204,9 +206,9 @@ Reuters, 2025
 
 Karman Holdings 10-K Balance Sheet
 
-Written by: Chrishan Kanagalingam, Kobith Kanagalingam
+**Written by: Chrishan Kanagalingam, Kobith Kanagalingam**
 
-Edited by: Patrick Maynard
+**Edited by: Patrick Maynard**
 """,
     "About": """
 
