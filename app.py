@@ -9,7 +9,7 @@ st.markdown(
 content="12b25a226097524d" />
 
     <meta name="description"
-content="Mini-Pitch is an online platform that allows for students to provide concise stock pitches on various companies to aid in the devolpment of their financial development and literacy. At Mini-Pitch, we utilise a combination of financial models (DCF, Trading Comps Valuation and CAPM) to extend our understanding of fiancial modellinga nd improve the reliability of our research." />
+content="Mini-Pitch is an online platform that allows for students to provide concise stock pitches on various companies to aid in the devolpment of their financial development and literacy. At Mini-Pitch, we utilise a combination of financial models (DCF, Trading Comps Valuation and CAPM) to extend our understanding of fiancial modelling and improve the reliability of our research." />
 
     <meta name="keywords"
 content=mini-pitch, stock pitch, students, economics, equity research, reporting, finance, investment banking, investing" />
