@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 
-st.set_page_config(page_title="Mini-Pitch: Stocks", layout="wide")
+st.set_page_config(page_title="Mini-Pitch", layout="wide")
 
 if "page" not in st.session_state:
     st.session_state["page"] = "Home"
