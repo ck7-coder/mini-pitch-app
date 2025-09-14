@@ -38,7 +38,7 @@ LULU would struggle to compete with other firms (despite its brand) image due to
 
 **Sources**
 
-Lululemon Annual Report
+Lululemon 2024 Annual Report
 
 Modern Retail, 2025
 
