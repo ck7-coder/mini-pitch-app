@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 
-st.set_page_config(page_title="Mini-Pitch: Stocks", layout="wide")
+st.set_page_config(page_title="Mini-Pitch", layout="wide")
 
 if "page" not in st.session_state:
     st.session_state["page"] = "Home"
@@ -383,7 +383,7 @@ def menu():
 
 def render_page(page):
     if page == "Home":
-        st.markdown('<h1 style="color: #40E0D0; font-size:110px;">Mini-Pitch: Stocks</h1>', unsafe_allow_html=True)
+        st.markdown('<h1 style="color: #40E0D0; font-size:110px;">Mini-Pitch </h1>', unsafe_allow_html=True)
         st.markdown("""
         <h1 style="font-size:40px;">
         Trading<b><i><span 
