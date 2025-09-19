@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping Streamlit app
-        run: curl -s 
-https://mini-pitch.streamlit.app/ > /dev/null
+        run: curl -s https://mini-pitch.streamlit.app/ > /dev/null
 
 
