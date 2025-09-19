@@ -52,7 +52,7 @@ Reuters.com, 2025
     "Travelzoo": """
 **04/09/2025**
 
-**TZOO is a capitaliser of a niche sector of the internet industry, with a focus upon the brand loyalty of its 30 million concurrent customers. Due to the undervaluing of TZOO stock (mainly due to its concentration upon curated deals), we propose a long on TZOO with a 5-year base case target share price of $19.21, predicting a potential upside of 102% by 2030.**
+**TZOO is a capitaliser of a niche sector of the internet industry, with a focus upon capitalising the brand loyalty of its 30 million concurrent customers. Due to the undervaluing of TZOO stock (mainly due to its concentration upon curated deals), we propose a long on TZOO with a 5-year base case target share price of $19.21, predicting a potential upside of 102% by 2030.**
 
 **Investment Thesis**  
 Buying shares would be profitable through long term investment in the micro-cap industry that includes smaller startups that tend to operate at a loss to reinvest (explaining the low EBITDA of 6.75% in 2025 despite a constant sticky recurrent revenue stream. Potential for this industry is rare, yet TZOO seems to be the exception by agglomerating profit margins between 83-92% which its larger counterparts (e.g. Booking.com) are yet to acclaim. The bull case being that undervalued entities with a smaller foundation have a potential for exponential growth in profitability/stock price given a suitable catalyst/ investment, especially for companies generating recurring profit when focus should tend towards reinvestment for dynamic efficiency. 
