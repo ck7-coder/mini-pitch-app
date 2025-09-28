@@ -42,7 +42,7 @@ Lululemon 2024 Annual Report
 
 Modern Retail, 2025
 
-Reuters.com, 2025
+Reuters, 2025
 
 **Written by: Chrishan Kanagalingam** 
 
