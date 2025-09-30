@@ -416,7 +416,7 @@ def render_page(page):
 
         st.markdown(f"""
         <h1 style="font-size:20px;">
-        Co-Developers<b><i><span style="color: #40E0D0"> - Lakshan Ganapathy, Chrishan Kanagalingam, Prathish Jathesenaikabahu</span></i></b>
+        Co-Developers<b><i><span style="color: #40E0D0"> - Chukwunonso Onyilo, Chrishan Kanagalingam, Prathish Jathesenaikabahu</span></i></b>
         </h1>
         """, unsafe_allow_html=True)
 
